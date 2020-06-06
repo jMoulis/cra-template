@@ -17,7 +17,7 @@ const HeaderListItem = styled.li`
   font-weight: bold;
 `;
 
-const HomePage = () => {
+const HomePage = (): JSX.Element => {
   return (
     <Root>
       <Title>Welcome</Title>
